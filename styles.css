@@ -13,7 +13,6 @@ body {
 
 /* Header part */
 header {
-  background-color: gold;
   height: 15%;
 }
 
@@ -37,8 +36,19 @@ header h2 {
 }
 
 header .menu {
-  background-color: antiquewhite;
   place-self: end end;
+}
+
+.menu a {
+  text-decoration: none;
+  color: slategray;
+  margin-right: 12px;
+}
+
+.menu a:hover {
+  color: deeppink;
+  outline: 1px solid lime;
+  outline-offset: 4px;
 }
 
 /* Main part */
