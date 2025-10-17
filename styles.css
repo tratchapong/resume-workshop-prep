@@ -19,6 +19,7 @@ header .container {
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
   padding-inline: 4px;
   padding-bottom: 16px;
 }
@@ -43,7 +44,8 @@ main .container {
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
+  padding-inline: 4px;
+  max-width: 1200px;
 }
 
 main .left {
@@ -64,11 +66,12 @@ footer {
 }
 
 footer .container {
-  border : solid;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-bottom: 20px;
+  padding-inline: 4px;
+  max-width: 1200px;
 }
 
 .copyright {
@@ -80,3 +83,4 @@ footer .container {
   background-color: lime;
   place-self: end end;
 }
+
