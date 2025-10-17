@@ -90,12 +90,23 @@ main {
 .right h3 {
   color : coral;
   letter-spacing: 0.2rem;
+  margin-top: 16px;
 }
 
 .right hr {
   border: 3px solid coral;
   width: 40px;
   margin-block: 4px 12px;
+}
+
+.right button {
+  padding: 1px 4px;
+  border-style: double;
+  border-color: #eee;
+  background-color: #fff;
+  color: #777;
+  border-radius: 2px;
+  font-size: 14px;
 }
 
 /* Page 2 */
