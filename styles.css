@@ -14,16 +14,17 @@ body {
 /* Header part */
 header {
   height: 15%;
+  background-color: aliceblue;
 }
 
 header .container {
-  background-color: aliceblue;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1200px;
   padding-inline: 4px;
   padding-bottom: 16px;
+  margin-inline: auto;
 }
 
 header .name {
@@ -63,6 +64,7 @@ main .container {
   grid-template-columns: 1fr 1fr;
   padding-inline: 4px;
   max-width: 1200px;
+  margin-inline: auto;
 }
 
 main .left {
@@ -90,6 +92,7 @@ footer .container {
   padding-bottom: 20px;
   padding-inline: 4px;
   max-width: 1200px;
+  margin-inline: auto;
 }
 
 .copyright {
