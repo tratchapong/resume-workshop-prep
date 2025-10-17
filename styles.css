@@ -58,7 +58,12 @@ main {
   height: 70%;
 }
 
-main .container {
+#page1 {
+  border: solid;
+  height: 100%;
+}
+
+#page1 .container {
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -67,13 +72,23 @@ main .container {
   margin-inline: auto;
 }
 
-main .left {
+#page1 {
+  border: solid;
+  height: 100%;
+}
+
+#page1 .left {
   background-color: pink;
   place-self: center;
   width: 100%;
 }
 
-main .right {
+#page1 {
+  border: solid;
+  height: 100%;
+}
+
+#page1 .right {
   background-color: aqua;
   place-self: center;
   width: 100%;
