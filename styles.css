@@ -56,8 +56,10 @@ header .menu {
 main {
   background-color: coral;
   height: 70%;
+  overflow: auto;
+  scroll-behavior: smooth;
 }
-
+/* Page 1 */
 #page1 {
   border: solid;
   height: 100%;
@@ -92,6 +94,14 @@ main {
   background-color: aqua;
   place-self: center;
   width: 100%;
+}
+
+/* Page 2 */
+
+#page2 {
+  color: red;
+  background-color: dodgerblue;
+  height: 100%;
 }
 
 /* Footer part */
