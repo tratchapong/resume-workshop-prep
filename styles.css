@@ -82,9 +82,20 @@ main {
 }
 
 #page1 .right {
-  background-color: aqua;
   place-self: center;
   width: 100%;
+  line-height: 1.4;
+}
+
+.right h3 {
+  color : coral;
+  letter-spacing: 0.2rem;
+}
+
+.right hr {
+  border: 3px solid coral;
+  width: 40px;
+  margin-block: 4px 12px;
 }
 
 /* Page 2 */
