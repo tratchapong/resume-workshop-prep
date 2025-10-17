@@ -30,6 +30,7 @@ header .container {
 header .name {
   place-self : end start;
   line-height: 1.4;
+  color: #333;
 }
 
 header h2 {
@@ -85,6 +86,7 @@ main {
   place-self: center;
   width: 100%;
   line-height: 1.4;
+  padding-right: 36px;
 }
 
 .right h3 {
@@ -139,7 +141,8 @@ footer .container {
 }
 
 .contact-bar {
-  background-color: lime;
   place-self: end end;
+  font-size: larger;
+  color: #444;
 }
 
