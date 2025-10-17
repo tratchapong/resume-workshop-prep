@@ -119,7 +119,7 @@ main {
 
 /* Footer part */
 footer {
-  background-color: violet;
+  background-color: aliceblue;
   height: 15%;
 }
 
@@ -134,8 +134,8 @@ footer .container {
 }
 
 .copyright {
-  background-color: deeppink;
   place-self: end start;
+  opacity: 0.7;
 }
 
 .contact-bar {
