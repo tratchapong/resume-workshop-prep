@@ -40,7 +40,6 @@ main {
 }
 
 main .container {
-  border : solid;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -62,4 +61,22 @@ main .right {
 footer {
   background-color: violet;
   height: 15%;
+}
+
+footer .container {
+  border : solid;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 20px;
+}
+
+.copyright {
+  background-color: deeppink;
+  place-self: end start;
+}
+
+.contact-bar {
+  background-color: lime;
+  place-self: end end;
 }
