@@ -54,14 +54,12 @@ header .menu {
 
 /* Main part */
 main {
-  background-color: coral;
   height: 70%;
   overflow: auto;
   scroll-behavior: smooth;
 }
 /* Page 1 */
 #page1 {
-  border: solid;
   height: 100%;
 }
 
@@ -74,20 +72,13 @@ main {
   margin-inline: auto;
 }
 
-#page1 {
-  border: solid;
-  height: 100%;
-}
-
 #page1 .left {
-  background-color: pink;
   place-self: center;
   width: 100%;
 }
 
-#page1 {
-  border: solid;
-  height: 100%;
+.left img {
+  width: 90%;
 }
 
 #page1 .right {
