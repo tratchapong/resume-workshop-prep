@@ -16,7 +16,6 @@ header {
 }
 
 header .container {
-  border: dashed;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -38,6 +37,26 @@ header .menu {
 main {
   background-color: coral;
   height: 70%;
+}
+
+main .container {
+  border : solid;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+main .left {
+  background-color: pink;
+  place-self: center;
+  width: 100%;
+}
+
+main .right {
+  background-color: aqua;
+  place-self: center;
+  width: 100%;
 }
 
 footer {
