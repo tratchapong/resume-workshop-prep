@@ -115,23 +115,49 @@ main {
 /* Page 2 */
 
 #page2 {
-
-  background-color: dodgerblue;
   height: 100%;
 }
 
 #page2 .container {
-  border: solid;
   height: 100%;
   display: grid;
   grid-template-columns: 7fr 3fr;
   padding-inline: 4px;
   max-width: 1200px;
   margin-inline: auto;
+  color: #555;
 }
 
 #page2 .work-exp {
-  background-color: gold;
+  /* background-color: gold; */
+}
+
+#page2 .work-exp > * {
+  font-weight: 400;
+  margin-block: 6px;
+}
+
+#page2 .company-name {
+  font-weight: 500;
+}
+
+#page2 hr {
+  width : 250px;
+  border-style: groove;
+  border-width: 1px;
+}
+
+#page2 .role {
+  color: tomato;
+}
+
+#page2 ul {
+  padding-left : 1.5rem;
+  font-size: smaller;
+}
+
+#page2 li {
+  margin-block : 8px;
 }
 
 #page2 .education {
