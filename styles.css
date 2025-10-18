@@ -134,7 +134,7 @@ main {
   padding-top: 16px;
 }
 
-#page2 .work-exp > * {
+#page2 .work-exp > *, #page2 .education > * {
   font-weight: 400;
   margin-block: 6px;
 }
@@ -143,8 +143,8 @@ main {
   font-weight: 500;
 }
 
-#page2 .work-exp hr {
-  width : 250px;
+#page2 .work-exp hr, #page2 .education hr{
+  width : 60%;
   border-style: groove;
   border-width: 1px;
   margin-bottom: 12px;
@@ -154,7 +154,7 @@ main {
   color: tomato;
 }
 
-#page2 .work-exp ul {
+#page2 .work-exp ul, #page2 .education ul {
   padding-left : 1.5rem;
   font-size: smaller;
   /* border: solid; */
@@ -162,11 +162,14 @@ main {
 }
 
 #page2 li {
-  margin-block : 8px;
+  margin-block : 16px;
 }
 
 #page2 .education {
-  background-color: aqua;
+  background-color: linen;
+  padding-inline: 12px 4px;
+  padding-top: 16px;
+  /* box-shadow: 4px 4px 8px #ddd; */
 }
 
 /* Footer part */
