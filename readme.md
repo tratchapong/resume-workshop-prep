@@ -37,6 +37,8 @@ Meta Liveshow — Bangkok, Thailand
 Web Developer / ( Jan 2020 - Dec 2021 )  
 - Built responsive marketing websites using Next.js and Tailwind CSS, improving SEO performance by 40%.
 - Created custom CMS integrations with Strapi and Firebase, allowing non-technical teams to update content easily.
+- Integrated JWT authentication and Role-Based Access Control (RBAC) to improve system security.
+- Developed reusable components and internal UI libraries, speeding up project delivery by 25%.
 ---
 #### Education
 Thai General University  

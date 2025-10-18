@@ -130,6 +130,8 @@ main {
 
 #page2 .work-exp {
   /* background-color: gold; */
+  padding-right: 5%;
+  padding-top: 16px;
 }
 
 #page2 .work-exp > * {
@@ -141,19 +143,22 @@ main {
   font-weight: 500;
 }
 
-#page2 hr {
+#page2 .work-exp hr {
   width : 250px;
   border-style: groove;
   border-width: 1px;
+  margin-bottom: 12px;
 }
 
 #page2 .role {
   color: tomato;
 }
 
-#page2 ul {
+#page2 .work-exp ul {
   padding-left : 1.5rem;
   font-size: smaller;
+  /* border: solid; */
+  margin-bottom: 24px;
 }
 
 #page2 li {
