@@ -110,6 +110,8 @@ main {
   color: #777;
   border-radius: 2px;
   font-size: 14px;
+  display: inline-block;
+  margin-bottom: 4px;
 }
 
 /* Page 2 */
