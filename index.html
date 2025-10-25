@@ -18,7 +18,7 @@
   <header>
     <div class="container">
       <div class="name">
-        <h2>Jenny Codecamp</h2>
+        <h2>Johny Codecamp</h2>
         <p>Full-stack Developer</p>
       </div>
       <div class="menu">
@@ -34,7 +34,7 @@
     <section id="page1">
       <div class="container">
         <div class="left">
-          <img src='https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg'>
+          <img src='https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg'>
         </div>
         <div class="right">
           <h3>Recent Roles</h3>
@@ -123,6 +123,7 @@
   <footer>
     <div class="container">
       <div class="copyright">
+        <button id="printBtn">Print / Save PDF</button>
         <p>&copy; 2025 by Jenny Codecamp.</p>
       </div>
       <div class="contact-bar">
@@ -136,6 +137,9 @@
       </div>
     </div>
   </footer>
+  <script>
+    document.getElementById('printBtn').addEventListener('click', () => window.print());
+</script>
 </body>
 
 </html>
