@@ -57,3 +57,20 @@ Sep 2019 - Dec 2019
 ---
 ### background-image 
 https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/
+
+
+--- 
+### js script : print 
+
+```
+<!-- print button place before copyright -->
+<button id="printBtn">Print / Save PDF</button>
+```
+
+
+```
+<!-- print button place before </body> -->
+<script>
+    document.getElementById('printBtn').addEventListener('click', () => window.print());
+</script>
+```
